@@ -1,0 +1,17 @@
+[package]
+name = "z2352n-kit"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.85"
+license = "MIT"
+description = "Read-only diagnostics and research toolkit for Nubia Neo 2 5G (Z2352N)"
+
+[[bin]]
+name = "z2352n"
+path = "src/main.rs"
+
+[dependencies]
+clap = { version = "4.6.7", features = ["derive"] }
+serde = { version = "1.0.229", features = ["derive"] }
+serde_json = "1.0.151"
+sha2 = "0.10.9"
