@@ -1,0 +1,17 @@
+/target/
+/research/private/
+/backups/
+/dumps/
+/firmware/
+/secrets/
+*.pac
+*.img
+*.bin
+*.key
+*.pem
+*.p12
+*.pfx
+*.log
+.env
+.env.*
+!.env.example
